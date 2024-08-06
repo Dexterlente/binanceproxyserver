@@ -20,7 +20,3 @@ app.use("/ws/:query", (req, res, next) => {
 app.get("/", (req, res) => {
   res.send("WebSocket proxy server is running");
 });
-
-app.listen(3001, () => {
-  console.log("> Ready on http://localhost:3001");
-});
