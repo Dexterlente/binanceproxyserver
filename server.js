@@ -2,7 +2,7 @@ const express = require("express");
 const setupWebSocketRoutes = require("./websockets");
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 setupWebSocketRoutes(app);
 
